@@ -14,7 +14,7 @@ from pmdarima import auto_arima
 import pickle
 import datetime
 #FILE_PATH = r"\\chnrmz-na-v504.asia-pac.shell.com\QTHOME002\Prashanthi.Bojanapu\Home\prashanthi\pdfextraction\COE\AI%20Engineering\data_trekkers\Input_data\covid_19_data.csv"
-kaggle.api.authenticate()
+#kaggle.api.authenticate()
 
 dataset = 'sudalairajkumar/novel-corona-virus-2019-dataset'
 cwd = os.getcwd()
