@@ -235,7 +235,6 @@ sqlparse==0.3.0
 srsly==0.1.0
 statsmodels==0.11.1
 sympy==1.3
-tables==3.4.4
 tblib==1.3.2
 termcolor==1.1.0
 terminado==0.8.1
@@ -246,7 +245,6 @@ thinc==7.0.8
 threadpoolctl==2.1.0
 toolz==0.9.0
 tornado==5.1.1
-tqdm==4.28.1
 traitlets==4.3.2
 tzlocal==1.5.1
 unicodecsv==0.14.1
