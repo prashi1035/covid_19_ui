@@ -187,10 +187,6 @@ pyperclip==1.7.0
 PyQt5==5.15.0
 PyQt5-sip==12.8.0
 PyRect==0.1.4
-pyscard==1.9.9
-PyScreeze==0.1.22
-PySocks==1.6.8
-pytesseract==0.2.6
 pytest==4.0.2
 pytest-arraydiff==0.3
 pytest-astropy==0.5.0
