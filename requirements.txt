@@ -250,10 +250,6 @@ webencodings==0.5.1
 Werkzeug==0.14.1
 whichcraft==0.5.2
 widgetsnbextension==3.4.2
-win-inet-pton==1.0.1
-win-unicode-console==0.5
-wincertstore==0.2
-winkerberos==0.7.0
 wrapt==1.10.11
 WTForms==2.2.1
 xlrd==1.2.0
