@@ -38,7 +38,7 @@ def extract_data():
         return response
     
     
-covid_kaggle_data = extract_data()
+covid_kaggle_data = pd.read_csv(r'./covid_19_data.csv')
 
 
 def index(request):
