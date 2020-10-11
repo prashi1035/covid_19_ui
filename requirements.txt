@@ -181,7 +181,6 @@ Pygments==2.3.1
 pyinstaller==3.4
 pylint==2.2.2
 PyMsgBox==1.0.7
-pyodbc==4.0.25
 pyOpenSSL==18.0.0
 pyparsing==2.3.0
 pyperclip==1.7.0
