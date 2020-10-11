@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Success</title>
+    <meta charset="utf-8">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'register/style.css' %}">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body background="static/register/covid.jpg">
+    <div class="container">
+        <form action="homepage" method="post">
+		   {% csrf_token %}
+            <button class="button" type="submit" class="btn btn-default">Home</button>
+        </form>
+        <form action="logout_req" method="post">
+		   {% csrf_token %}
+            <button class="button" type="submit" style="float:right">Logout</button>
+        </form>
+    </div>
+	<div class="container">
+        <div class="row justify-content-center">
+			<div class="col-8">
+				<div class="alert alert-success" role="alert'">
+					<h4 class="alert-heading">Welcome to Covid cases predictions</h4>
+                        <p>Welcome, <strong>{{user.first_name}} {{user.last_name}}</strong></p>
+
+                        <form action="covid_predictions" method="post">
+                            {% csrf_token %}
+                            <div class="form-group">
+                                
+                            
+                            
+                            <select name = "country" type = "text" class="form-control">
+                              {% for country in countries %}
+                              <option value="{{ country }}">{{ country }}</option>
+                              {% endfor %}
+                              
+                            </select>
+                            <button class="button" type="submit" class="btn btn-default">Go</button> 
+                           <!-- <input type="checkbox" id="historical" name="historical" value="True"> 
+                            <label for="historical"> Show historical prediction performances</label><br> -- >
+                            
+	</div>
+<script>
+        
+        function getSelectValue()
+        {
+            var selectedValue = document.getElementById("country").value;
+            console.log(selectedValue);
+			return selectedValue
+			}
+	getSelectValue();
+    </script>
+    
+    
+                    </form>
+                    
+
+
+  
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
