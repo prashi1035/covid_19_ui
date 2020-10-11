@@ -120,7 +120,6 @@ mccabe==0.6.1
 minecart==0.3.0
 mistune==0.8.4
 mizani==0.6.0
-mkl-fft==1.0.6
 mkl-random==1.0.2
 mock==2.0.0
 more-itertools==4.3.0
