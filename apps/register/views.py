@@ -7,7 +7,7 @@ from .models import User
 
 import pandas as pd
 import numpy as np
-import kaggle
+#import kaggle
 from math import sqrt
 from sklearn.metrics import mean_squared_error, r2_score
 from pmdarima import auto_arima
