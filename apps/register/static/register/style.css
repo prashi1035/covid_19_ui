@@ -8,3 +8,9 @@ ul {
     padding-left: 0px !important;
     list-style-type: none;
 }
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: round;
+    background-attachment: fixed;
+}
