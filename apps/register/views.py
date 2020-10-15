@@ -282,7 +282,8 @@ def batch_predict(country_list=None):
         country_list = covid_kaggle_data['Country/Region'].unique()
     for this_country in country_list:
         print("Starting batch predict for {}".format(this_country))
-        country_folder_path = 'covid_19_django_ui/predictions_store/' + this_country + '/'
+        #country_folder_path = 'covid_19_django_ui/predictions_store/' + this_country + '/'
+        country_folder_path = os.path.join(cwd,'predictions_store/'+country+ '/')
         if not os.path.isdir(country_folder_path):
             os.mkdir(country_folder_path)
         this_pred_df, this_history_df = get_fresh_predictions(this_country, forecast_period=7, is_history=True)
